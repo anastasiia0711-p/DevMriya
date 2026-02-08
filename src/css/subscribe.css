@@ -22,11 +22,12 @@
     flex-direction: column;
 }
 
-.label-form-email {
-    display: none;
-    color: #7f1c1c;
-    font-size: 12px;
+.input-container {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 20px;
 }
+
 
 .input-form-email {
     display: block;
@@ -58,6 +59,15 @@
     border-color: green;
 }
 
+.label-form-email {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: none;
+    color: #7f1c1c;
+    font-size: 12px;
+}
+
 .button-send {
     display: flex;
     gap: 12px;
@@ -80,6 +90,11 @@
 .button-send:focus,
 .button-send:hover {
     opacity: 0.5;
+}
+
+.button-send:active {
+    box-shadow: none;
+    opacity: 1;
 }
 
 .svg-send {
