@@ -1,5 +1,5 @@
 .hero {
-  padding: 108.5px 0;
+  padding: 108.5px 32px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7,8 +7,11 @@
   margin: auto;
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('../images/hero-bg-1x.jpg');
+    url('/images/hero-bg-1x.jpg');
+
 }
+
+
 
 .hero-container {
   display: block;
@@ -67,21 +70,32 @@
 
 @media (min-width: 768px) {
   .hero {
-    padding: 311.5px 0;
+
+    padding: 311.5px 176px 311.5px 32px;
   }
 
+<<<<<<< HEAD
+=======
+  .hero-container p {
+    width: 560px;
+  }
+
+>>>>>>> main
   .hero-title {
     width: 560px;
   }
 
+<<<<<<< HEAD
   .hero-text {
     width: 560px;
   }
+=======
+>>>>>>> main
 }
 
 @media (min-width: 1440px) {
   .hero {
-    padding: 259px 0;
+    padding: 259px 816px 259px 64px;
   }
 
   .hero-title {
@@ -89,4 +103,15 @@
     line-height: 1.2;
     letter-spacing: -0.01em;
   }
+<<<<<<< HEAD
+=======
+}
+
+@media screen and (min-resolution: 2x),
+(-webkit-min-device-pixel-ratio: 2) {
+  .hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('/images/hero-bg-2x.jpg');
+  }
+>>>>>>> main
 }
