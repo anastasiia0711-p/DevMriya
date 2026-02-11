@@ -4,7 +4,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 1440px;
+  max-width: 375px;
   margin: auto;
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -82,6 +82,7 @@
   .hero {
     padding-top: 311.5px;
     padding-bottom: 311.5px;
+    max-width: 768px;
   }
 
   .hero-container {
@@ -104,6 +105,7 @@
   .hero {
     padding-top: 259px;
     padding-bottom: 259px;
+    max-width: 1440px;
   }
 
   .hero-container {
